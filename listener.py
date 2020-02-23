@@ -75,6 +75,7 @@ def networkControlRobot():
     while True:
         if server.message is not "" and server.message is not b'':
             handler.messageParser(server.message)
+            print(server.message)
             server.message = ""
             print("Executed commands")
             

@@ -17,6 +17,6 @@ def multiTest(s):
 def singleTest(s):
     s.send(bytes(b"65 0|"))
 
-multiTest(s)
-time.sleep(5)
+# multiTest(s)
+# time.sleep(5)
 singleTest(s)
