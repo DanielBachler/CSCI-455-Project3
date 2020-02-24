@@ -103,6 +103,7 @@ class KeyboardInput():
     def run(self):
         self.root = tk.Tk()
         self.root.bind('<space>', self.pressed)
+        self.root.bind('<period>', self.pressed)
         self.root.mainloop()
 
 
